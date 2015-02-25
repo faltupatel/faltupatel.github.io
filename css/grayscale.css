@@ -260,6 +260,39 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
+.about-section {
+    width: 100%;
+    padding: 5px 0;
+    color: #fff;
+    background: url(../img/quantum.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.education-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/education.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.projects-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/project.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 .download-section {
     width: 100%;
@@ -309,6 +342,49 @@ a:focus {
     color: #42dca3;
     background-color: transparent;
 }
+.btn-primary {
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
+}
+.panel-primary {
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
+}
+.panel-heading {
+    background-color: transparent!important;
+    border: 1px solid #42dca3!important;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+.panel-heading:hover{
+    background-color: #42dca3!important;
+    opacity: 0.90;
+}
+
+#eff1 {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+ 
+#eff1:hover,
+#eff1:focus {
+  border-radius: 50%;
+  color: #000;
+
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
 
 .btn-default:hover,
 .btn-default:focus {
